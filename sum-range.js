@@ -1,12 +1,9 @@
 function sumAll(arr) {
   var sumOutput = 0;
-  var currentNum = 0;
-  console.log(currentNum);
-  while (currentNum < arr[1]) {
-    currentNum++;
-    console.log(currentNum);
+  var currentNum = arr[0];
+  while (currentNum <= arr[1]) {
     sumOutput += currentNum;
-    console.log(sumOutput);
+    currentNum++;
   }
   return sumOutput;
 }
